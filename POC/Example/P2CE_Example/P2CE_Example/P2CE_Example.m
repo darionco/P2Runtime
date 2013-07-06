@@ -46,7 +46,7 @@
      "];
     
     [[P2ClassExtender sharedInstance] createClassWithSource:@"\
-     @interface CallerChild : OtherClass\
+     @interface CallerChild : Caller\
      @end\
      @implementation CallerChild\
      @end\
